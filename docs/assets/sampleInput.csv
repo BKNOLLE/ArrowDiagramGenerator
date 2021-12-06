@@ -1,8 +1,8 @@
 ID,Predecessors,Duration,Total Slack
-1,,20 days,10 days
-2,1,20 days,10 days
-3,1,20 days,10 days
-4,"2,3",20 days,10 days
-5,"2,4",20 days,10 days
-6,4,20 days,10 days
-7,"4,5,6",20 days,10 days
+A,,11 time units,
+B,,4 time units,
+C,A,8 time units,
+D,A,6 time units,
+E,"A,B,C,D",9 time units,
+F,"B,C,D",5 time units,
+G,"B,F",3 time units,
